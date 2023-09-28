@@ -13,58 +13,34 @@ namespace NET_Homework_3_2
 {
     internal class Magazine
     {
-        private string _name;
-        private string _year;
-        private string _description;
-        private string _phone;
-        private string _email;
+        public string Name { get; set; }
+        public string Year { get; set; }
+        public string Description { get; set; }
+        public string Phone { get; set; }
+        public string Email { get; set; }
         public Magazine(string name, string year, string description, string phone, string email)
         {
-            _name = name;
-            _year = year;
-            _description = description;
-            _phone = phone;
-            _email = email;
+            Name = name;
+            Year = year;
+            Description = description;
+            Phone = phone;
+            Email = email;
         }
         public void InputData(string name, string year, string description, string phone, string email)
         {
-            _name = name;
-            _year = year;
-            _description = description;
-            _phone = phone;
-            _email = email;
+            Name = name;
+            Year = year;
+            Description = description;
+            Phone = phone;
+            Email = email;
         }
         public void OtputData()
         {
-            Console.WriteLine($"Назва журнала: {_name}");
-            Console.WriteLine($"Рік заснування: {_year}");
-            Console.WriteLine($"Опис журналу: {_description}");
-            Console.WriteLine($"Контактний телефон: {_phone}");
-            Console.WriteLine($"email: {_email}");
-        }
-        public string Name
-        { get { return _name; } 
-          set { _name = value; }
-        }
-        public string Year
-        {
-            get { return _year; }
-            set { _year = value; }
-        }
-        public string Description
-        { 
-            get { return _description; } 
-            set {  _description = value; } 
-        }
-        public string Phone
-        { 
-            get { return _phone; } 
-            set {  _phone = value; } 
-        }
-        public string Email
-        {
-            get { return _email; }
-            set { _email = value; }
+            Console.WriteLine($"Назва журнала: {Name}");
+            Console.WriteLine($"Рік заснування: {Year}");
+            Console.WriteLine($"Опис журналу: {Description}");
+            Console.WriteLine($"Контактний телефон: {Phone}");
+            Console.WriteLine($"email: {Email}");
         }
     }
 }
