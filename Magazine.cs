@@ -118,25 +118,5 @@ namespace NET_Homework_3_2
         {
             return magazine1 != magazine2;
         }
-
-
-        /*public override bool Equals (object obj)
-        {
-            if (obj is Magazine m)
-            {
-                return this.Name != m.Name &&
-                       this.Year != m.Year &&
-                       this.Description != m.Description &&
-                       this.Phone != m.Phone &&
-                       this.Email != m.Email &&
-                       this.NumberEmployees != m.NumberEmployees;
-            }
-            return true;
-        }*/
-
-       /* public override int GetHashCode()
-        {
-            return HashCode.Combine(Name, Year, Description, Phone, Email, NumberEmployees);
-        }*/
     }
 }
