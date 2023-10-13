@@ -29,16 +29,7 @@ namespace NET_Homework_3_2
         public string Phone { get; set; }
         public string Email { get; set; }
         public int NumberEmployees { get; set; }
-
-        public Magazine()
-        {
-            Name = null;
-            Year = null;
-            Description = null;
-            Phone = null;
-            Email = null;
-            NumberEmployees = 0;
-        }
+        public Magazine() { }
         public Magazine(string name, string year, string description, string phone, string email, int number)
         {
             Name = name;

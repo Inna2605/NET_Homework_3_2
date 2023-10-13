@@ -54,7 +54,7 @@ namespace NET_Homework_3_2
 
             magazine1 = magazine2;
             Magazine magazine = new Magazine();
-            Console.WriteLine($"Порівняння журналів Equals (magazine1, magazine2): {Equals(magazine1, magazine2)}");
+            Console.WriteLine($"\nПорівняння журналів Equals (magazine1, magazine2): {Equals(magazine1, magazine2)}");
             Console.WriteLine($"Порівняння журналів Equals (magazine1, magazine): {Equals(magazine1, magazine)}");
 
             Console.ReadLine();
